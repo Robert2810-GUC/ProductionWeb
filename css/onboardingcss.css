@@ -1,0 +1,381 @@
+.onboarding-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+    .onboarding-container h1 {
+        color: #333;
+        margin-bottom: 40px;
+    }
+
+/* Grid container styles */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Card styles */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+    .card:hover {
+        transform: translateY(-10px);
+    }
+
+/* Step title styles */
+.step-title {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #f2af00; /* Yellowish color */
+}
+
+
+/* Step description styles */
+.step-description {
+    color: #666;
+}
+
+.grid-container .card:nth-child(1) {
+    background-color: #d1e7dd; /* Light green */
+}
+
+.grid-container .card:nth-child(2) {
+    background-color: #cfe2ff; /* Light blue */
+}
+
+.grid-container .card:nth-child(3) {
+    background-color: #f8d7da; /* Light red */
+}
+
+.grid-container .card:nth-child(4) {
+    background-color: #c7ccd6; /* Light grey */
+}
+
+.grid-container .card:nth-child(5) {
+    background-color: #fff3cd; /* Light yellow */
+}
+
+.grid-container .card:nth-child(6) {
+    background-color: #d1d3e0; /* Light purple */
+}
+
+
+/* Icon styles */
+.icon {
+    color: #f2af00; /* Yellowish color */
+}
+
+    .icon i {
+        font-size: 24px; /* Larger icon size */
+    }
+
+/* Arrow styles */
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #333;
+    position: absolute;
+    top: 50%;
+    right: -15px;
+    transform: translateY(-50%);
+}
+
+.grid-container .card:nth-child(3) .arrow-right {
+    display: block; /* Hide the arrow for the last card in the first row */
+}
+
+.grid-container .card:nth-child(3) .arrow-down {
+    display: block; /* Show the down arrow for the last card in the first row */
+}
+
+.grid-container .card:nth-child(6) .arrow-right {
+    display: none; /* Hide the arrow for the last card */
+}
+
+.grid-container .card:nth-child(4) .arrow-down {
+    display: none; /* Hide the down arrow for the first card in the second row */
+}
+
+.mil-accordion-group .mil-accordion-menu{
+    margin-bottom:15px !important;
+}
+
+.workflowp{
+    margin-top:15px;
+}
+.onboarding{
+    padding-top:90px;
+}
+.timeline i{
+    color: rgb(0 99 243);
+}
+.mil-accordion-group .mil-accordion-menu .mil-accordion-head {
+    color: rgb(0 99 243) !important;
+}
+.mil-symbol mil-h3 {
+    color: rgb(0 99 243) !important;
+}
+
+
+
+.faq-header {
+    text-align:center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.faq-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    /* overflow: hidden; */
+    transition: height 0.5s;
+}
+
+.question-header {
+    background-color: black;
+    padding: 10px;
+    cursor: pointer;
+    color: #FF9C0C;
+}
+
+.question {
+    font-weight: bold;
+    color: #FF9C0C;
+    margin: 0;
+}
+
+.answer {
+    display: none;
+    padding: 10px;
+    animation: fadein 0.5s ease-in-out;
+    background: bisque;
+}
+    .answer ul {
+        padding: 0 25px;
+        list-style-type: disc !important;
+    }
+        .answer ul li {
+            font-size: 14px;
+            font-weight: 500;
+            color: black;
+        }
+
+.toggle-icon {
+    float: right;
+    font-size: 20px;
+    color: #FF9C0C;
+    transition: transform 0.3s;
+}
+
+    .toggle-icon.rotate {
+        transform: rotate(180deg);
+    }
+
+.show {
+    display: block;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.onboardingquote {
+    font-size: 20px;
+    font-family: math;
+}
+
+
+
+/* General Reset */
+
+
+/* Navbar Styles */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 11%;
+    top: 0;
+    z-index: 1000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-light {
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-dark {
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-logo {
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 100%;
+    color: #333;
+}
+
+.navbar-menu {
+    display: flex;
+    gap: 1.5rem;
+    position: relative;
+}
+
+.navbar-item {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    transition: color 0.3s;
+    position: relative;
+}
+
+    .navbar-item:hover {
+        color: #ff6600;
+    }
+
+.navbar-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar-button {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #ff6600;
+    background-color: #ff6600;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+    .navbar-button:hover {
+        background-color: #ff8533;
+        border-color: #ff8533;
+    }
+
+.navbar-button-primary {
+    background-color: transparent;
+    color: #ff6600;
+}
+
+    .navbar-button-primary:hover {
+        background-color: #ff6600;
+        color: #fff;
+    }
+
+/* Dropdown Menu */
+.navbar-item:hover .dropdown {
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.dropdown-item {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem 1rem;
+    display: block;
+    white-space: nowrap;
+    transition: background-color 0.3s;
+}
+
+    .dropdown-item:hover {
+        background-color: #f1f1f1;
+    }
+
+/* Mobile Menu Toggle */
+.navbar-menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+    .navbar-menu-toggle span {
+        background-color: #333;
+        height: 3px;
+        width: 25px;
+        margin: 4px 0;
+        transition: 0.4s;
+    }
+
+@media (max-width: 768px) {
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+        gap: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+        .navbar-menu.active {
+            display: flex;
+        }
+
+    .navbar-menu-toggle {
+        display: flex;
+    }
+
+    .navbar-item:hover .dropdown {
+        display: none;
+    }
+}
+
+.workflowimage {
+    width: 88%;
+    margin-top: 20px;
+}
+@media only screen and (max-width:991px) {
+.grid-container .card:nth-child(3) .arrow-right {
+    display: block; /* Hide the down arrow for the first card in the second row */
+}}

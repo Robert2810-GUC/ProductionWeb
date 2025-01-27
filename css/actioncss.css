@@ -1,0 +1,114 @@
+
+.call-to-action { 
+    color: #FFFFFF; 
+    position: relative;
+} 
+
+.call-to-action--has-image { 
+    margin-top: 30px;
+} 
+
+.call-to-action  { 
+    z-index: 3; 
+    margin-top: 0 !important;
+} 
+.call-to-action__title{
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+.call-to-action__text {
+    max-width: 813px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 19px;
+}
+.call-to-action:before { 
+    display: block; 
+    content: ''; 
+    background: linear-gradient(90deg, #150773 0%, #4cbdd1 100%); 
+    position: absolute; 
+    z-index: 1; 
+    left: -50px; 
+    right: -50px; 
+    top: 0px; 
+    bottom: 100px; 
+    transform: rotate(3deg); 
+    left: -82px;
+} 
+
+.call-to-action:last-of-type:before { 
+    bottom: -30px;
+} 
+
+.call-to-action:after { 
+    display: block; 
+    content: ''; 
+    background: linear-gradient(90deg, #150773 0%, #4cbdd1 100%); 
+    position: absolute; 
+    z-index: 1; 
+    left: -50px; 
+    right: -50px; 
+    top: 100px; 
+    bottom: 0px; 
+    transform: rotate(-3deg);
+} 
+
+:selection { 
+    background: #ffb000; 
+    color: #262626;
+} 
+
+
+.call-to-action .container  { 
+    position: relative; 
+    z-index: 2;
+} 
+call-to-action__image { 
+    width: 175px; 
+    display: block; 
+    margin: -80px auto 30px auto;
+} 
+
+.lazyloaded { 
+    opacity: 1; 
+    transition: opacity 400ms; 
+    transition-delay: 0ms;
+} 
+
+.call-to-action__button { 
+    padding: 16px 30px 14px 30px; 
+    border: none; 
+    display: inline-block; 
+    text-decoration: none; 
+    border-radius: 50px; 
+    transition: all 0.2s ease-in-out; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+} 
+
+.call-to-action__button { 
+    background: #0753f7; 
+    color: #ffffff;
+} 
+
+.call-to-action__button { 
+    display: table; 
+    margin: 30px auto;
+} 
+.call-to-action__image {
+    width: 200px;
+    display: block;
+    margin: -80px auto auto auto;
+}
+.call-to-action__sub {
+    max-width: 813px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 19px;
+}
+.call-to-action__title strong { 
+    border-bottom: 4px solid;
+    border-image-width: 0 0 4px 0;
+    border-image-repeat: repeat;
+    border-image-slice: 10;
+    border-color: rgb(0 90 255);
+}
