@@ -709,12 +709,25 @@ h5.bigfont{
     padding-top: 60px;
     padding-bottom: 60px;
 }
+.mil-btn-div {
+    
+  }
+    /* //mobile view */
+    @media screen and (max-width: 500px){
+        .mil-btn-space {
+            margin-right: 20px;
+          }
+        
+      }
+     
 @media screen and (max-height: 600px) {
     .mil-menu-frame .mil-menu-right-frame {
         display: none !important;
     }
 }
-
+.mil-space-div{
+    //margin-top: 20px;
+}
 @media screen and (max-width: 1250px) {
     .mil-menu-frame .mil-menu-right-frame {
         display: none !important;
