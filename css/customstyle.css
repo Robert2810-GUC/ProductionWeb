@@ -717,12 +717,33 @@ h5.bigfont{
         .mil-btn-space {
             margin-right: 20px;
           }
-        
+       
+        a.mil-link.mil-muted.mil-arrow-place{
+            margin-left:45px;
+        }
       }
-     
+
+@media screen and (max-width: 992px) {
+    .mil-banner .mil-banner-content {
+        padding-bottom: 20px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    section.mil-banner {
+        margin-top: 90px;
+    }
+}
 @media screen and (max-height: 600px) {
     .mil-menu-frame .mil-menu-right-frame {
         display: none !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .indexservicesh3{
+        height:auto;
+    }
+    .indexservicesp{
+        height:auto;
     }
 }
 .mil-space-div{
