@@ -709,8 +709,8 @@ h5.bigfont{
     padding-top: 60px;
     padding-bottom: 60px;
 }
-.mil-btn-div {
-    
+h1.mil-muted.mil-mb-30 {
+    font-size: 45px;
   }
     /* //mobile view */
     @media screen and (max-width: 500px){
@@ -722,6 +722,12 @@ h5.bigfont{
             margin-left:45px;
         }
       }
+      @media screen and (min-width: 1200px){
+        section.mil-banner  {
+            padding-top: 90px;
+          }       
+      }
+
 
 @media screen and (max-width: 992px) {
     .mil-banner .mil-banner-content {
