@@ -709,7 +709,7 @@ h5.bigfont{
     padding-top: 60px;
     padding-bottom: 60px;
 }
-h1.mil-muted.mil-mb-30 {
+h1.mil-muted {
     font-size: 45px;
   }
     /* //mobile view */
@@ -721,6 +721,12 @@ h1.mil-muted.mil-mb-30 {
         a.mil-link.mil-muted.mil-arrow-place{
             margin-left:45px;
         }
+        h1.mil-muted {
+            font-size: 35px;
+          } 
+          h3.mil-muted {
+            font-size: 30px;
+          }
       }
       @media screen and (min-width: 1200px){
         section.mil-banner  {
