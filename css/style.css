@@ -3051,6 +3051,16 @@ footer
 .mil-footer-menu {
   margin-bottom: 120px;
 }
+.footer_bg {
+  background-position: center;
+  position: relative;
+  background: url(../img/Bg_footer.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer_bg:before {
+  backdrop-filter: none !important;
+}
 .mil-footer-menu ul li {
   list-style-type: none;
   margin-bottom: 30px;
