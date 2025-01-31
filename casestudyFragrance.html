@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
 
     <link rel="icon" type="image/x-icon" href="img/logo/logo.png">
     <!-- bootstrap grid css -->
@@ -90,7 +91,7 @@
 
                             <nav class="mil-main-menu" id="swupMenu">
                                 <ul>
-                                    <li class="mil-has-children">
+                                    <li class="mil-has-children ">
                                         <a href="#.">Homepage</a>
                                         <ul>
                                             <li><a href="index.html">Home</a></li>
@@ -114,7 +115,7 @@
                                             <li><a href="services.html">Explore more</a></li>
                                         </ul>
                                     </li>
-                                    <li class="mil-has-children mil-active">
+                                    <li class="mil-has-children">
                                         <a href="#.">Portfolio</a>
                                         <ul>                                            
                                             <li><a href="portfolio-3.html">Our Experience</a></li>
@@ -224,62 +225,197 @@
         </div>
         <!-- frame end -->
         <!-- content -->
-        <div class="mil-content">
+        <div class="mil-content blog2">
             <div id="swupMain" class="mil-main-transition">
 
-                <!-- portfolio -->
-                <section class="mil-portfolio-slider-frame">
+                <!-- banner -->
+                <div class="mil-inner-banner mil-p-0-120">
+                    <div class="mil-banner-content mil-up">
+                        <div class="mil-animation-frame">
+                            <div class="mil-animation mil-position-4 mil-dark mil-scale" data-value-1="6" data-value-2="1.4"></div>
+                        </div>
+                        <div class="container">
+                            <ul class="mil-breadcrumbs mil-mb-60">
+                                <li><a href="index.html">Homepage</a></li>
+                                <li><a href="blog.html">Case Study</a></li>
+                            </ul>
+                            <h1 class="mil-mb-60 headerblog">
+                                Fitness Coach Finder App
+                            </h1>
+                            <p class="mil-post-text mil-up mil-mb-30 blogsummary">
+                                The Fitness Coach Finder App was developed using Flutter Hybrid technology, ensuring cross-platform compatibility and a seamless user experience across both iOS and Android devices. The estimated time for project completion is 4 to 6 weeks, with a tech stack optimized for performance and scalability.
+                            </p>
+                            <a href="#sliderContainer" class="mil-link mil-dark mil-arrow-place mil-down-arrow">
+                                <span>Features</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- banner end -->
+                <!-- popular -->
+                <section id="blog" class="mil-soft-bg">
+                    <div class="container mil-pb-60 pt-5">
+                        <div class="mil-center">
+                            <h2 class="mil-suptitle  mil-suptitle-dark mil-up">
+                                Features
+                            </h2>
+                            <div class="featuretext" style="background-color: rgb(255, 204, 204);">
+                                <b>User Registration and Profile Creation</b><br />
+                                Users can register and create personalized profiles, including fitness goals, preferences, and past achievements.
+                            </div>
+
+                            <div class="featuretext" style="background-color: rgb(204, 255, 204);">
+                                <b>Coach Search and Filtering</b><br />
+                                Users can search for fitness coaches based on various criteria such as location, specialization, availability, and ratings.
+                            </div>
+
+                            <div class="featuretext" style="background-color: rgb(204, 204, 255);">
+                                <b>Booking and Scheduling</b><br />
+                                Seamless booking and scheduling functionality, allowing users to book coaching sessions directly through the app at their preferred time slots.
+                            </div>
+
+                            <div class="featuretext" style="background-color: rgb(255, 255, 204);">
+                                <b>In-App Messaging</b><br />
+                                Real-time messaging feature for communication between users and coaches, facilitating coordination and support.
+                            </div>
+
+                            <div class="featuretext" style="background-color: rgb(204, 255, 255);">
+                                <b>Payment Integration</b><br />
+                                Secure payment gateway integration for seamless transactions between users and coaches for coaching services.
+                            </div>
+
+                            <div class="featuretext" style="background-color: rgb(255, 204, 255);">
+                                <b>Reviews and Ratings</b><br />
+                                Users can leave reviews and ratings for coaches based on their experiences, helping others make informed decisions.
+                            </div>
+
+                            <div class="featuretext" style="background-color: rgb(204, 255, 153);">
+                                <b>Notifications</b><br />
+                                Push notifications for appointment reminders, new messages, and other important updates
+                            </div>
+
+                            <div class="featuretext" style="background-color: rgb(255, 204, 102);">
+                                <b>Admin Panel</b><br />
+                                A comprehensive admin panel for managing user accounts, coach profiles, bookings, payments, and app content.
+                            </div>
+
+                            <div class="featuretext" style="background-color: rgb(204, 153, 255);">
+                                <b>Development Approach</b><br />
+                                Our team of experienced developers have followed an Agile development methodology to ensure transparency, flexibility, and timely delivery of milestones. Regular progress updates and feedback sessions were conducted to keep all stakeholders informed and engaged throughout the development process.
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                <!-- popular end -->
+                <!-- blog -->
+                <section class=" casestudy" id="sliderContainer">
                     <div class="mil-animation-frame">
                         <div class="mil-animation mil-position-4 mil-dark mil-scale" data-value-1="1" data-value-2="2" style="top: -60px; right: -4px;"></div>
                     </div>
                     <div class="container">
                         <div class="row align-items-end">
                             <div class="col-lg-9">
-                                <div class="swiper-container mil-portfolio-slider mil-up">
+                                <div class="swiper-container mil-portfolio-slider mil-up" id="swiper-container">
                                     <div class="swiper-wrapper">
-                                        <!-- <div class="swiper-slide">
-
-                                <div class="mil-portfolio-item mil-slider-item" data-swiper-parallax="-30">
-                                    <div class="mil-cover-frame mil-drag">
-                                        <div class="mil-cover" data-swiper-parallax-scale="1.3">
-                                            <img src="img/works/gcwork1.png" alt="cover">
-                                        </div>
-                                    </div>
-                                    <div class="mil-descr" data-swiper-parallax-x="104%" data-swiper-parallax-opacity="0">
-                                        <div class="mil-descr-text" data-swiper-parallax-y="100%" data-swiper-parallax-opacity="0">
-                                            <div class="mil-labels mil-mb-15">
-                                                <div class="mil-label mil-upper mil-accent">TECHNOLOGY</div>
-                                                <div class="mil-label mil-upper">CMS -Wordpress</div>
-                                            </div>
-                                            <h5>The CraneWorks</h5>
-                                        </div>
-                                        <div data-swiper-parallax-y="120" data-swiper-parallax-opacity="0">
-                                            <a href="project-1.html" class="mil-button mil-arrow-place">
-                                                <span>View Project</span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div> -->
                                         <div class="swiper-slide">
 
                                             <div class="mil-portfolio-item mil-slider-item" data-swiper-parallax="-30">
                                                 <div class="mil-cover-frame mil-drag">
                                                     <div class="mil-cover" data-swiper-parallax-scale="1.3">
-                                                        <img src="img/works/2portImg.png" alt="cover">
+                                                        <img class="mil-cover-img" src="img/casestudy/1.png" alt="cover">
+                                                    </div>
+                                                </div>
+                                                <div class="mil-descr" data-swiper-parallax-x="104%" data-swiper-parallax-opacity="0">
+                                                    <div class="mil-descr-text" data-swiper-parallax-y="100%" data-swiper-parallax-opacity="0">
+                                                        <h5>User Registration</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="swiper-slide">
+
+                                            <div class="mil-portfolio-item mil-slider-item" data-swiper-parallax="-30">
+                                                <div class="mil-cover-frame mil-drag">
+                                                    <div class="mil-cover" data-swiper-parallax-scale="1.3">
+                                                        <img class="mil-cover-img" src="img//casestudy/2.png" alt="cover">
+                                                    </div>
+                                                </div>
+                                                <div class="mil-descr" data-swiper-parallax-x="104%" data-swiper-parallax-opacity="0">
+                                                    <div class="mil-descr-text" data-swiper-parallax-y="100%" data-swiper-parallax-opacity="0">
+                                                        <h5>Coach Search</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="swiper-slide">
+
+                                            <div class="mil-portfolio-item mil-slider-item" data-swiper-parallax="-30">
+                                                <div class="mil-cover-frame mil-drag">
+                                                    <div class="mil-cover" data-swiper-parallax-scale="1.3">
+                                                        <img class="mil-cover-img" src="img/casestudy/3.png" alt="cover">
+                                                    </div>
+                                                </div>
+                                                <div class="mil-descr" data-swiper-parallax-x="104%" data-swiper-parallax-opacity="0">
+                                                    <div class="mil-descr-text" data-swiper-parallax-y="100%" data-swiper-parallax-opacity="0">
+                                                        <h5>Coach Booking</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="swiper-slide">
+
+                                            <div class="mil-portfolio-item mil-slider-item" data-swiper-parallax="-30">
+                                                <div class="mil-cover-frame mil-drag">
+                                                    <div class="mil-cover" data-swiper-parallax-scale="1.3">
+                                                        <img class="mil-cover-img" src="img/casestudy/4.png" alt="cover">
+                                                    </div>
+                                                </div>
+                                                <div class="mil-descr" data-swiper-parallax-x="104%" data-swiper-parallax-opacity="0">
+                                                    <div class="mil-descr-text" data-swiper-parallax-y="100%" data-swiper-parallax-opacity="0">
+                                                        <h5>Coach Management</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="swiper-slide">
+
+                                            <div class="mil-portfolio-item mil-slider-item" data-swiper-parallax="-30">
+                                                <div class="mil-cover-frame mil-drag">
+                                                    <div class="mil-cover" data-swiper-parallax-scale="1.3">
+                                                        <img class="mil-cover-img" src="img/casestudy/5.png" alt="cover">
+                                                    </div>
+                                                </div>
+                                                <div class="mil-descr" data-swiper-parallax-x="104%" data-swiper-parallax-opacity="0">
+                                                    <div class="mil-descr-text" data-swiper-parallax-y="100%" data-swiper-parallax-opacity="0">
+                                                        <h5>Reviews and Rating</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="swiper-slide">
+
+                                            <div class="mil-portfolio-item mil-slider-item" data-swiper-parallax="-30">
+                                                <div class="mil-cover-frame mil-drag">
+                                                    <div class="mil-cover" data-swiper-parallax-scale="1.3">
+                                                        <img class="mil-cover-img" src="img/casestudy/6.png" alt="cover">
                                                     </div>
                                                 </div>
                                                 <div class="mil-descr" data-swiper-parallax-x="104%" data-swiper-parallax-opacity="0">
                                                     <div class="mil-descr-text" data-swiper-parallax-y="100%" data-swiper-parallax-opacity="0">
                                                         <div class="mil-labels mil-mb-15">
                                                             <div class="mil-label mil-upper mil-accent">TECHNOLOGY</div>
-                                                            <div class="mil-label mil-upper">React Native, Node.js and Express.js</div>
+                                                            <div class="mil-label mil-upper">may 24 2023</div>
                                                         </div>
-                                                        <h5>E-commerce Mobile Application</h5>
+                                                        <h5>Tony's Chocolonely</h5>
                                                     </div>
                                                     <div data-swiper-parallax-y="100%" data-swiper-parallax-opacity="0">
-                                                        <a href="project2.html" class="mil-button mil-arrow-place">
+                                                        <a href="project-6.html" class="mil-button mil-arrow-place">
                                                             <span>View Project</span>
                                                         </a>
                                                     </div>
@@ -292,77 +428,17 @@
                                             <div class="mil-portfolio-item mil-slider-item" data-swiper-parallax="-30">
                                                 <div class="mil-cover-frame mil-drag">
                                                     <div class="mil-cover" data-swiper-parallax-scale="1.3">
-                                                        <img src="img/works/3portImg.png" alt="cover">
+                                                        <img class="mil-cover-img" src="img/casestudy/7.png" alt="cover">
                                                     </div>
                                                 </div>
                                                 <div class="mil-descr" data-swiper-parallax-x="104%" data-swiper-parallax-opacity="0">
                                                     <div class="mil-descr-text" data-swiper-parallax-y="100%" data-swiper-parallax-opacity="0">
-                                                        <div class="mil-labels mil-mb-15">
-                                                            <div class="mil-label mil-upper mil-accent">TECHNOLOGY</div>
-                                                            <div class="mil-label mil-upper">Python-based frameworks </div>
-                                                        </div>
-                                                        <h5>AI Chatbot for Enhanced Customer Support</h5>
-                                                    </div>
-                                                    <div data-swiper-parallax-y="100%" data-swiper-parallax-opacity="0">
-                                                        <a href="project3.html" class="mil-button mil-arrow-place">
-                                                            <span>View Project</span>
-                                                        </a>
+                                                        <h5>In App Messaging</h5>
                                                     </div>
                                                 </div>
                                             </div>
 
                                         </div>
-                                        <div class="swiper-slide">
-
-                                            <div class="mil-portfolio-item mil-slider-item" data-swiper-parallax="-30">
-                                                <div class="mil-cover-frame mil-drag">
-                                                    <div class="mil-cover" data-swiper-parallax-scale="1.3">
-                                                        <img src="img/works/4portImg.png" alt="cover">
-                                                    </div>
-                                                </div>
-                                                <div class="mil-descr" data-swiper-parallax-x="104%" data-swiper-parallax-opacity="0">
-                                                    <div class="mil-descr-text" data-swiper-parallax-y="100%" data-swiper-parallax-opacity="0">
-                                                        <div class="mil-labels mil-mb-15">
-                                                            <div class="mil-label mil-upper mil-accent">TECHNOLOGY</div>
-                                                            <div class="mil-label mil-upper">CMS</div>
-                                                        </div>
-                                                        <h5>WordPress Website for a Home Insulation Company</h5>
-                                                    </div>
-                                                    <div data-swiper-parallax-y="100%" data-swiper-parallax-opacity="0">
-                                                        <a href="project-4.html" class="mil-button mil-arrow-place">
-                                                            <span>View Project</span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                        <div class="swiper-slide">
-
-                                            <div class="mil-portfolio-item mil-slider-item" data-swiper-parallax="-30">
-                                                <div class="mil-cover-frame mil-drag">
-                                                    <div class="mil-cover" data-swiper-parallax-scale="1.3">
-                                                        <img src="img/works/5portImg.png" alt="cover">
-                                                    </div>
-                                                </div>
-                                                <div class="mil-descr" data-swiper-parallax-x="104%" data-swiper-parallax-opacity="0">
-                                                    <div class="mil-descr-text" data-swiper-parallax-y="100%" data-swiper-parallax-opacity="0">
-                                                        <div class="mil-labels mil-mb-15">
-                                                            <div class="mil-label mil-upper mil-accent">TECHNOLOGY</div>
-                                                            <div class="mil-label mil-upper">Flutter,Django and Python </div>
-                                                        </div>
-                                                        <h5>Food Delivery App for a Bangalore-Based Restaurant</h5>
-                                                    </div>
-                                                    <div data-swiper-parallax-y="100%" data-swiper-parallax-opacity="0">
-                                                        <a href="project-5.html" class="mil-button mil-arrow-place">
-                                                            <span>View Project</span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
                                     </div>
                                 </div>
                             </div>
@@ -380,7 +456,31 @@
                         </div>
                     </div>
                 </section>
-                <!-- portfolio end -->
+                <!-- blog end -->
+                <!-- call to action -->
+                <section class="mil-soft-bg">
+                    <div class="container mil-p-120-120">
+                        <div class="row">
+                            <div class="col-lg-10">
+
+                                <span class="mil-suptitle mil-suptitle-right mil-suptitle-dark mil-up">Looking to make your mark? We'll help you turn <br> your project into a success story.</span>
+
+                            </div>
+                        </div>
+                        <div class="mil-center">
+                            <h2 class="mil-up mil-mb-60">Stay up-to-date <span class="mil-thin">with the</span><br> latest news by <span class="mil-thin">subscribing</span><br> to our <span class="mil-thin">newsletter!</span></h2>
+                            <div class="row justify-content-center mil-up">
+                                <div class="col-lg-4">
+                                    <form class="mil-subscribe-form mil-subscribe-form-2 mil-up">
+                                        <input type="text" placeholder="Enter our email">
+                                        <button type="submit" class="mil-button mil-icon-button-sm mil-arrow-place"></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- call to action end -->
                 <!-- footer -->
                 <footer class="mil-dark-bg">
                     <div class="mi-invert-fix">
@@ -392,17 +492,11 @@
 
                                     <p class="mil-light-soft mil-up mil-mb-30">Subscribe our newsletter:</p>
 
-                                    <!-- <form action="https://api.web3forms.com/submit" method="POST" class="mil-subscribe-form mil-up">
-                            <input type="hidden" name="access_key" value="da05bf0f-e85e-4f9b-bee8-6d6dda68efd9">
-                            <input type="text" name="Email" placeholder="Enter our email">
-                            <button type="submit" class="mil-button mil-icon-button-sm mil-arrow-place"></button>
-                        </form> -->
-                                    <form id="contactForm" method="POST" class="mil-subscribe-form mil-up">
-                                        <input type="hidden" name="access_key" value="da05bf0f-e85e-4f9b-bee8-6d6dda68efd9">
-                                        <input type="text" name="Email" placeholder="Enter our email">
+                                    <form class="mil-subscribe-form mil-up">
+                                        <input type="text" placeholder="Enter our email">
                                         <button type="submit" class="mil-button mil-icon-button-sm mil-arrow-place"></button>
                                     </form>
-                                    <div id="result"></div>
+
                                 </div>
                                 <div class="col-md-7 col-lg-6">
                                     <div class="row justify-content-end">
@@ -431,8 +525,6 @@
                                         </div>
                                         <div class="col-md-6 col-lg-5">
 
-
-
                                             <ul class="mil-menu-list mil-up mil-mb-60">
                                                 <li><a href="privacy_policy.html" class="mil-light-soft">Privacy Policy</a></li>
                                                 <li><a href="terms.html" class="mil-light-soft">Terms and conditions</a></li>
@@ -448,7 +540,7 @@
                             <div class="row justify-content-between flex-sm-row-reverse">
                                 <div class="col-md-7 col-lg-6">
 
-                                    <div class="row justify-content-between">
+                                     <div class="row justify-content-between">
 
                                         <div class="col-md-6 col-lg-5 mil-mb-60">
 
@@ -462,7 +554,7 @@
                                             <h6 class="mil-muted mil-up mil-mb-30">Contact</h6>
 
                                             <p class="mil-light-soft mil-up">
-                                                &#9990; : +1 7273 041 469
+                                                &#9990; : (217) 290-2121
                                                 <br /><span class="mil-no-wrap">&#9993; : sales@gearupcode.com</span>
                                             </p>
 
@@ -476,9 +568,10 @@
                                     <div class="mil-vert-between">
                                         <div class="mil-mb-30">
                                             <ul class="mil-social-icons mil-up">
+                                               
                                             </ul>
                                         </div>
-                                        <p class="mil-light-soft mil-up">© Copyright 2024 - Mil. All Rights Reserved.</p>
+                                        <p class="mil-light-soft mil-up">© Copyright 2023 - Mil. All Rights Reserved.</p>
                                     </div>
 
                                 </div>
