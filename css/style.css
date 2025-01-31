@@ -825,9 +825,11 @@ backgrounds
 
 ------------------------------------------- */
 .mil-dark-bg {
-   
+    background-position: center;
     position: relative;
-    
+    background: url(img/Bg_footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .mil-dark-bg:before {
   content: "";
